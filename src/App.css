@@ -1,0 +1,37 @@
+.carousel {
+	margin-top: 0px;
+	display: none;
+}
+
+/* .header {
+} */
+
+/* //media */
+
+@media (min-width: 800px) {
+	.carousel {
+		background-color: red;
+		display: block;
+	}
+}
+
+.xsmall {
+	background-color: grey;
+	width: 576px;
+	height: 576px;
+	margin: 20px auto;
+}
+
+.small {
+	background-color: grey;
+	width: 768px;
+	height: 576px;
+	margin: 20px auto;
+}
+
+.medium {
+	background-color: grey;
+	width: 992px;
+	height: 576px;
+	margin: 20px auto;
+}
